@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karpacz Hiking Trails | Explore the Karkonosze Mountains</title>
+    <meta name="description" content="Interactive map of hiking trails in Karpacz, Poland. Discover routes of various difficulty levels with detailed information about distance, elevation, and duration.">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Main Container - Side by Side Layout -->
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Sidebar Header -->
+            <div class="sidebar-header">
+                <div class="header-glow"></div>
+                <div class="header-content">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <h1>Karpacz Trails</h1>
+                        <span class="logo-tagline">Explore the Karkonosze</span>
+                    </div>
+                </div>
+                <div class="header-accent"></div>
+            </div>
+
+            <!-- Filters -->
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="difficulty-filter">Difficulty</label>
+                    <select id="difficulty-filter">
+                        <option value="all">All Levels</option>
+                        <option value="easy">Easy 🟢</option>
+                        <option value="moderate">Moderate 🟡</option>
+                        <option value="difficult">Difficult 🔴</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="color-filter">Trail Color</label>
+                    <select id="color-filter">
+                        <option value="all">All Colors</option>
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                        <option value="yellow">Yellow</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="length-filter">Max Length</label>
+                    <select id="length-filter">
+                        <option value="all">Any Distance</option>
+                        <option value="5">Up to 5 km</option>
+                        <option value="10">Up to 10 km</option>
+                        <option value="15">Up to 15 km</option>
+                    </select>
+                </div>
+
+                <button id="reset-filters" class="btn-secondary">Reset Filters</button>
+            </div>
+
+            <!-- Trail List -->
+            <div class="trail-list-wrapper">
+                <h2>📋 Trails (<span id="trail-count">0</span>)</h2>
+                <div id="trail-list" class="trail-list">
+                    <!-- Trail cards will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Footer in Sidebar -->
+            <div class="sidebar-footer">
+                <p>Made with ❤️ for hikers</p>
+                <p class="github-link">
+                    <a href="https://github.com/yourusername/karpacz-trails" target="_blank">View on GitHub →</a>
+                </p>
+            </div>
+
+            <!-- Trail Detail Panel (hidden by default) -->
+            <div id="trail-detail" class="trail-detail hidden">
+                <button id="close-detail" class="close-btn">&times;</button>
+                <div id="detail-content">
+                    <!-- Detail content will be populated by JavaScript -->
+                </div>
+            </div>
+        </aside>
+
+        <!-- Map Container -->
+        <main class="map-container">
+            <!-- Theme Toggle -->
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"/>
+                    <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                </svg>
+                <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                </svg>
+            </button>
+            <div id="map"></div>
+        </main>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+    
+    <!-- Trail Data -->
+    <script src="js/trails-data.js"></script>
+    <!-- Application JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>

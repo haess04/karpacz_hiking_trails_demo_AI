@@ -1,0 +1,458 @@
+{
+  "metadata": {
+    "region": "Karpacz, Karkonosze, Poland",
+    "data_source": "OpenStreetMap + hiking project",
+    "last_updated": "2024-03-22",
+    "total_trails": 14
+  },
+  "trails": [
+    {
+      "id": "trail_001",
+      "name": "Karpacz Górny - Śnieżka (red trail)",
+      "name_pl": "Karpacz Górny - Śnieżka (szlak czerwony)",
+      "color": "red",
+      "difficulty": "moderate",
+      "difficulty_pl": "średni",
+      "length_km": 7.2,
+      "elevation_gain_m": 750,
+      "estimated_time_hours": 3.5,
+      "start_point": {
+        "name": "Karpacz Górny (Kocioł Łomniczki)",
+        "lat": 50.7589,
+        "lon": 15.7234
+      },
+      "end_point": {
+        "name": "Śnieżka (1602 m n.p.m.)",
+        "lat": 50.7359,
+        "lon": 15.7394
+      },
+      "waypoints": [
+        {"name": "Kocioł Łomniczki", "lat": 50.7589, "lon": 15.7234, "elevation": 850},
+        {"name": "Śląski Dom", "lat": 50.7534, "lon": 15.7289, "elevation": 1100},
+        {"name": "Przełęcz pod Śnieżką", "lat": 50.7400, "lon": 15.7350, "elevation": 1380},
+        {"name": "Śnieżka", "lat": 50.7359, "lon": 15.7394, "elevation": 1602}
+      ],
+      "description": "Popular trail to the highest peak in the Sudetes. Offers stunning views but can be crowded on weekends.",
+      "description_pl": "Popularny szlak na najwyższy szczyt Sudetów. Oferuje wspaniałe widoki, ale może być zatłoczony w weekendy.",
+      "features": ["mountain_peak", "shelter", "scenic_views"],
+      "osm_relation_id": "12345"
+    },
+    {
+      "id": "trail_002",
+      "name": "Karpacz - Samotnia (blue trail)",
+      "name_pl": "Karpacz - Samotnia (szlak niebieski)",
+      "color": "blue",
+      "difficulty": "easy",
+      "difficulty_pl": "łatwy",
+      "length_km": 4.5,
+      "elevation_gain_m": 320,
+      "estimated_time_hours": 2,
+      "start_point": {
+        "name": "Karpacz Dolny (centrum)",
+        "lat": 50.7740,
+        "lon": 15.7550
+      },
+      "end_point": {
+        "name": "Samotnia Shelter",
+        "lat": 50.7600,
+        "lon": 15.7350
+      },
+      "waypoints": [
+        {"name": "Karpacz Dolny", "lat": 50.7740, "lon": 15.7550, "elevation": 650},
+        {"name": "Wang Church", "lat": 50.7700, "lon": 15.7500, "elevation": 680},
+        {"name": "Biały Jar", "lat": 50.7650, "lon": 15.7400, "elevation": 750},
+        {"name": "Samotnia", "lat": 50.7600, "lon": 15.7350, "elevation": 970}
+      ],
+      "description": "Beautiful and accessible trail leading to the historic Samotnia mountain shelter. Passes near the famous Wang Church.",
+      "description_pl": "Piękny i dostępny szlak prowadzący do historycznego schroniska Samotnia. Przechodzi obok słynnego Kościoła Wang.",
+      "features": ["shelter", "historic_site", "forest"],
+      "osm_relation_id": "12346"
+    },
+    {
+      "id": "trail_003",
+      "name": "Karpacz - Śnieżne Kotły (green trail)",
+      "name_pl": "Karpacz - Śnieżne Kotły (szlak zielony)",
+      "color": "green",
+      "difficulty": "difficult",
+      "difficulty_pl": "trudny",
+      "length_km": 9.8,
+      "elevation_gain_m": 900,
+      "estimated_time_hours": 5,
+      "start_point": {
+        "name": "Karpacz Górny",
+        "lat": 50.7589,
+        "lon": 15.7234
+      },
+      "end_point": {
+        "name": "Śnieżne Kotły",
+        "lat": 50.7300,
+        "lon": 15.7100
+      },
+      "waypoints": [
+        {"name": "Karpacz Górny", "lat": 50.7589, "lon": 15.7234, "elevation": 850},
+        {"name": "Przełęcz Karkonoska", "lat": 50.7450, "lon": 15.7150, "elevation": 1198},
+        {"name": "Śnieżne Kotły", "lat": 50.7300, "lon": 15.7100, "elevation": 1490}
+      ],
+      "description": "Challenging trail to the Snow Pits - one of the most beautiful glacial cirques in the Sudetes. Spectacular views.",
+      "description_pl": "Wymagający szlak do Śnieżnych Kotłów - jednych z najpiękniejszych kotłów polodowcowych w Sudetach. Widoki zapierające dech.",
+      "features": ["glacial_cirque", "scenic_views", "challenging"],
+      "osm_relation_id": "12347"
+    },
+    {
+      "id": "trail_004",
+      "name": "Circular trail: Karpacz - Pielgrzymy - Karpacz (yellow trail)",
+      "name_pl": "Szlak okrężny: Karpacz - Pielgrzymy - Karpacz (szlak żółty)",
+      "color": "yellow",
+      "difficulty": "easy",
+      "difficulty_pl": "łatwy",
+      "length_km": 6.0,
+      "elevation_gain_m": 200,
+      "estimated_time_hours": 2.5,
+      "start_point": {
+        "name": "Karpacz Dolny",
+        "lat": 50.7740,
+        "lon": 15.7550
+      },
+      "end_point": {
+        "name": "Karpacz Dolny",
+        "lat": 50.7740,
+        "lon": 15.7550
+      },
+      "waypoints": [
+        {"name": "Karpacz Dolny", "lat": 50.7740, "lon": 15.7550, "elevation": 650},
+        {"name": "Pielgrzymy Rocks", "lat": 50.7800, "lon": 15.7400, "elevation": 850},
+        {"name": "Karpacz Dolny", "lat": 50.7740, "lon": 15.7550, "elevation": 650}
+      ],
+      "description": "Easy circular route with interesting rock formations. Great for families and beginners.",
+      "description_pl": "Łatwa trasa okrężna z ciekawymi formacjami skalnymi. Świetna dla rodzin i początkujących.",
+      "features": ["rock_formations", "family_friendly", "circular"],
+      "osm_relation_id": "12348"
+    },
+    {
+      "id": "trail_005",
+      "name": "Karpacz - Mały Staw (red trail via Liščí hora)",
+      "name_pl": "Karpacz - Mały Staw (szlak czerwony przez Lisią Górę)",
+      "color": "red",
+      "difficulty": "moderate",
+      "difficulty_pl": "średni",
+      "length_km": 5.5,
+      "elevation_gain_m": 450,
+      "estimated_time_hours": 2.5,
+      "start_point": {
+        "name": "Karpacz Górny",
+        "lat": 50.7589,
+        "lon": 15.7234
+      },
+      "end_point": {
+        "name": "Mały Staw",
+        "lat": 50.7450,
+        "lon": 15.7250
+      },
+      "waypoints": [
+        {"name": "Karpacz Górny", "lat": 50.7589, "lon": 15.7234, "elevation": 850},
+        {"name": "Liščí hora (Lisia Góra)", "lat": 50.7520, "lon": 15.7200, "elevation": 1085},
+        {"name": "Mały Staw", "lat": 50.7450, "lon": 15.7250, "elevation": 1183}
+      ],
+      "description": "Trail leading to the beautiful mountain lake Mały Staw with the historic mountain hotel.",
+      "description_pl": "Szlak prowadzący do pięknego górskiego stawu Mały Staw z historycznym hotelem górskim.",
+      "features": ["mountain_lake", "shelter", "historic_site"],
+      "osm_relation_id": "12349"
+    },
+    {
+      "id": "trail_006",
+      "name": "Karkonosze Traverse: Karpacz - Przełęcz Karkonoska (green trail)",
+      "name_pl": "Przejście Karkonoszy: Karpacz - Przełęcz Karkonoska (szlak zielony)",
+      "color": "green",
+      "difficulty": "moderate",
+      "difficulty_pl": "średni",
+      "length_km": 8.5,
+      "elevation_gain_m": 350,
+      "estimated_time_hours": 3.5,
+      "start_point": {
+        "name": "Karpacz Górny",
+        "lat": 50.7589,
+        "lon": 15.7234
+      },
+      "end_point": {
+        "name": "Przełęcz Karkonoska",
+        "lat": 50.7450,
+        "lon": 15.7150
+      },
+      "waypoints": [
+        {"name": "Karpacz Górny", "lat": 50.7589, "lon": 15.7234, "elevation": 850},
+        {"name": "Mumlavský vodopád (Mumlavski Waterfall)", "lat": 50.7550, "lon": 15.7180, "elevation": 800},
+        {"name": "Przełęcz Karkonoska", "lat": 50.7450, "lon": 15.7150, "elevation": 1198}
+      ],
+      "description": "Scenic ridge traverse connecting Polish and Czech sides of the mountains. Passes near a beautiful waterfall.",
+      "description_pl": "Malownicze przejście granią łączące polską i czeską stronę gór. Przechodzi obok pięknego wodospadu.",
+      "features": ["waterfall", "border_crossing", "ridge_walk"],
+      "osm_relation_id": "12350"
+    },
+    {
+      "id": "trail_007",
+      "name": "Karpacz - Śnieżka via Kopa (yellow trail)",
+      "name_pl": "Karpacz - Śnieżka przez Kopę (szlak żółty)",
+      "color": "yellow",
+      "difficulty": "moderate",
+      "difficulty_pl": "średni",
+      "length_km": 6.8,
+      "elevation_gain_m": 680,
+      "estimated_time_hours": 3,
+      "start_point": {
+        "name": "Karpacz Górny",
+        "lat": 50.7589,
+        "lon": 15.7234
+      },
+      "end_point": {
+        "name": "Śnieżka",
+        "lat": 50.7359,
+        "lon": 15.7394
+      },
+      "waypoints": [
+        {"name": "Karpacz Górny", "lat": 50.7589, "lon": 15.7234, "elevation": 850},
+        {"name": "Kopa (1377 m)", "lat": 50.7450, "lon": 15.7300, "elevation": 1377},
+        {"name": "Śnieżka", "lat": 50.7359, "lon": 15.7394, "elevation": 1602}
+      ],
+      "description": "Alternative route to Śnieżka via Kopa peak. Less crowded than the red trail with equally great views.",
+      "description_pl": "Alternatywna trasa na Śnieżkę przez szczyt Kopa. Mniej zatłoczona niż szlak czerwony z równie dobrymi widokami.",
+      "features": ["mountain_peak", "scenic_views", "less_crowded"],
+      "osm_relation_id": "12351"
+    },
+    {
+      "id": "trail_008",
+      "name": "Wild Waterfall Trail (blue circular)",
+      "name_pl": "Szlak Dziki Wodospad (okrężny niebieski)",
+      "color": "blue",
+      "difficulty": "easy",
+      "difficulty_pl": "łatwy",
+      "length_km": 3.2,
+      "elevation_gain_m": 150,
+      "estimated_time_hours": 1.5,
+      "start_point": {
+        "name": "Parking Biały Jar",
+        "lat": 50.7650,
+        "lon": 15.7400
+      },
+      "end_point": {
+        "name": "Parking Biały Jar",
+        "lat": 50.7650,
+        "lon": 15.7400
+      },
+      "waypoints": [
+        {"name": "Parking Biały Jar", "lat": 50.7650, "lon": 15.7400, "elevation": 750},
+        {"name": "Dziki Wodospad", "lat": 50.7680, "lon": 15.7380, "elevation": 850},
+        {"name": "Parking Biały Jar", "lat": 50.7650, "lon": 15.7400, "elevation": 750}
+      ],
+      "description": "Short and easy circular trail to the Wild Waterfall. Perfect for a quick nature walk.",
+      "description_pl": "Krótki i łatwy szlak okrężny do Dzikiego Wodospadu. Idealny na szybki spacer w naturze.",
+      "features": ["waterfall", "family_friendly", "circular"],
+      "osm_relation_id": "12352"
+    },
+    {
+      "id": "trail_009",
+      "name": "Karpacz - Wielki Szyszak (yellow-green trail)",
+      "name_pl": "Karpacz - Wielki Szyszak (szlak żółto-zielony)",
+      "color": "yellow",
+      "difficulty": "difficult",
+      "difficulty_pl": "trudny",
+      "length_km": 12.5,
+      "elevation_gain_m": 1050,
+      "estimated_time_hours": 6,
+      "start_point": {
+        "name": "Karpacz Górny",
+        "lat": 50.7589,
+        "lon": 15.7234
+      },
+      "end_point": {
+        "name": "Wielki Szyszak (1509 m)",
+        "lat": 50.7250,
+        "lon": 15.7000
+      },
+      "waypoints": [
+        {"name": "Karpacz Górny", "lat": 50.7589, "lon": 15.7234, "elevation": 850},
+        {"name": "Przełęcz Karkonoska", "lat": 50.7450, "lon": 15.7150, "elevation": 1198},
+        {"name": "Wielki Szyszak", "lat": 50.7250, "lon": 15.7000, "elevation": 1509}
+      ],
+      "description": "Challenging trail to one of the highest peaks on the Czech side. Offers panoramic views of both Polish and Czech sides of the mountains.",
+      "description_pl": "Wymagający szlak na jeden z najwyższych szczytów po stronie czeskiej. Oferuje panoramiczne widoki na obie strony gór.",
+      "features": ["mountain_peak", "border_crossing", "panoramic_views", "challenging"],
+      "osm_relation_id": "12353"
+    },
+    {
+      "id": "trail_010",
+      "name": "Karpacz - Szklarska Poręba (blue trail via Sowia Przełęcz)",
+      "name_pl": "Karpacz - Szklarska Poręba (szlak niebieski przez Sowią Przełęcz)",
+      "color": "blue",
+      "difficulty": "moderate",
+      "difficulty_pl": "średni",
+      "length_km": 15.0,
+      "elevation_gain_m": 400,
+      "estimated_time_hours": 5,
+      "start_point": {
+        "name": "Karpacz Górny",
+        "lat": 50.7589,
+        "lon": 15.7234
+      },
+      "end_point": {
+        "name": "Szklarska Poręba",
+        "lat": 50.8250,
+        "lon": 15.5200
+      },
+      "waypoints": [
+        {"name": "Karpacz Górny", "lat": 50.7589, "lon": 15.7234, "elevation": 850},
+        {"name": "Przełęcz Karkonoska", "lat": 50.7450, "lon": 15.7150, "elevation": 1198},
+        {"name": "Sowia Przełęcz", "lat": 50.7800, "lon": 15.6200, "elevation": 900},
+        {"name": "Szklarska Poręba", "lat": 50.8250, "lon": 15.5200, "elevation": 450}
+      ],
+      "description": "Long-distance trail connecting Karpacz with Szklarska Poręba. Scenic ridge walk with views of both valleys.",
+      "description_pl": "Długodystansowy szlak łączący Karpacz ze Szklarską Porębą. Malownicze przejście granią z widokami na obie doliny.",
+      "features": ["long_distance", "ridge_walk", "valley_views", "town_connection"],
+      "osm_relation_id": "12354"
+    },
+    {
+      "id": "trail_011",
+      "name": "Vang Church Educational Trail (green circular)",
+      "name_pl": "Szlak Edukacyjny Kościół Wang (okrężny zielony)",
+      "color": "green",
+      "difficulty": "easy",
+      "difficulty_pl": "łatwy",
+      "length_km": 2.0,
+      "elevation_gain_m": 80,
+      "estimated_time_hours": 1,
+      "start_point": {
+        "name": "Kościół Wang",
+        "lat": 50.7700,
+        "lon": 15.7500
+      },
+      "end_point": {
+        "name": "Kościół Wang",
+        "lat": 50.7700,
+        "lon": 15.7500
+      },
+      "waypoints": [
+        {"name": "Kościół Wang", "lat": 50.7700, "lon": 15.7500, "elevation": 680},
+        {"name": "Pomnik Związku Podhalan", "lat": 50.7750, "lon": 15.7450, "elevation": 720},
+        {"name": "Kościół Wang", "lat": 50.7700, "lon": 15.7500, "elevation": 680}
+      ],
+      "description": "Short educational trail around the famous Norwegian stave church. Information boards about local flora and history.",
+      "description_pl": "Krótki szlak edukacyjny wokół słynnego norweskiego kościoła klepkowego. Tablice informacyjne o miejscowej florze i historii.",
+      "features": ["historic_site", "educational", "family_friendly", "circular"],
+      "osm_relation_id": "12355"
+    },
+    {
+      "id": "trail_012",
+      "name": "Śnieżka - Strzecha Akademicka (red trail)",
+      "name_pl": "Śnieżka - Strzecha Akademicka (szlak czerwony)",
+      "color": "red",
+      "difficulty": "moderate",
+      "difficulty_pl": "średni",
+      "length_km": 5.0,
+      "elevation_gain_m": 50,
+      "estimated_time_hours": 2,
+      "start_point": {
+        "name": "Śnieżka",
+        "lat": 50.7359,
+        "lon": 15.7394
+      },
+      "end_point": {
+        "name": "Strzecha Akademicka",
+        "lat": 50.7400,
+        "lon": 15.7100
+      },
+      "waypoints": [
+        {"name": "Śnieżka", "lat": 50.7359, "lon": 15.7394, "elevation": 1602},
+        {"name": "Przełęcz pod Śnieżką", "lat": 50.7400, "lon": 15.7350, "elevation": 1380},
+        {"name": "Strzecha Akademicka", "lat": 50.7400, "lon": 15.7100, "elevation": 1350}
+      ],
+      "description": "Scenic ridge trail from Śnieżka to Strzecha Akademicka shelter. Mostly downhill with great views of Śnieżne Kotły.",
+      "description_pl": "Malowniczy szlak graniowy ze Śnieżki do schroniska Strzecha Akademicka. Głównie zejście z pięknymi widokami na Śnieżne Kotły.",
+      "features": ["ridge_walk", "shelter", "scenic_views", "mostly_downhill"],
+      "osm_relation_id": "12356"
+    },
+    {
+      "id": "trail_013",
+      "name": "Karpacz - Świątynia Wang - Zamek Leśna (yellow trail)",
+      "name_pl": "Karpacz - Świątynia Wang - Zamek Leśna (szlak żółty)",
+      "color": "yellow",
+      "difficulty": "easy",
+      "difficulty_pl": "łatwy",
+      "length_km": 4.0,
+      "elevation_gain_m": 100,
+      "estimated_time_hours": 1.5,
+      "start_point": {
+        "name": "Karpacz Dolny",
+        "lat": 50.7740,
+        "lon": 15.7550
+      },
+      "end_point": {
+        "name": "Zamek Leśna",
+        "lat": 50.7850,
+        "lon": 15.7650
+      },
+      "waypoints": [
+        {"name": "Karpacz Dolny", "lat": 50.7740, "lon": 15.7550, "elevation": 650},
+        {"name": "Kościół Wang", "lat": 50.7700, "lon": 15.7500, "elevation": 680},
+        {"name": "Zamek Leśna", "lat": 50.7850, "lon": 15.7650, "elevation": 750}
+      ],
+      "description": "Pleasant walk combining cultural highlights - the famous wooden church and the historic Leśna Castle ruins.",
+      "description_pl": "Przyjemny spacer łączący atrakcje kulturowe - słynny drewniany kościół i ruiny historycznego Zamku Leśna.",
+      "features": ["historic_site", "castle_ruins", "cultural", "family_friendly"],
+      "osm_relation_id": "12357"
+    },
+    {
+      "id": "trail_014",
+      "name": "Biały Jar Waterfall Trail (green trail)",
+      "name_pl": "Szlak do Wodospadu Białego Jaru (szlak zielony)",
+      "color": "green",
+      "difficulty": "easy",
+      "difficulty_pl": "łatwy",
+      "length_km": 2.5,
+      "elevation_gain_m": 120,
+      "estimated_time_hours": 1,
+      "start_point": {
+        "name": "Parking Biały Jar",
+        "lat": 50.7650,
+        "lon": 15.7400
+      },
+      "end_point": {
+        "name": "Wodospad Białego Jaru",
+        "lat": 50.7620,
+        "lon": 15.7380
+      },
+      "waypoints": [
+        {"name": "Parking Biały Jar", "lat": 50.7650, "lon": 15.7400, "elevation": 750},
+        {"name": "Wodospad Białego Jaru", "lat": 50.7620, "lon": 15.7380, "elevation": 870}
+      ],
+      "description": "Short trail to one of the most beautiful waterfalls in the Karkonosze. The waterfall drops 30 meters into the gorge.",
+      "description_pl": "Krótki szlak do jednego z najpiękniejszych wodospadów w Karkonoszach. Wodospad spada 30 metrów w głąb wąwozu.",
+      "features": ["waterfall", "nature", "family_friendly", "photography"],
+      "osm_relation_id": "12358"
+    }
+  ],
+  "difficulty_levels": {
+    "easy": {
+      "label": "Easy",
+      "label_pl": "Łatwy",
+      "description": "Suitable for beginners and families with children",
+      "color_code": "#4CAF50"
+    },
+    "moderate": {
+      "label": "Moderate",
+      "label_pl": "Średni",
+      "description": "Requires some hiking experience and reasonable fitness",
+      "color_code": "#FF9800"
+    },
+    "difficult": {
+      "label": "Difficult",
+      "label_pl": "Trudny",
+      "description": "Requires good fitness and hiking experience",
+      "color_code": "#F44336"
+    }
+  },
+  "trail_colors": {
+    "red": {"label": "Red Trail", "label_pl": "Szlak czerwony", "hex": "#D32F2F"},
+    "blue": {"label": "Blue Trail", "label_pl": "Szlak niebieski", "hex": "#1976D2"},
+    "green": {"label": "Green Trail", "label_pl": "Szlak zielony", "hex": "#388E3C"},
+    "yellow": {"label": "Yellow Trail", "label_pl": "Szlak żółty", "hex": "#FBC02D"}
+  }
+}

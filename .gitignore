@@ -1,0 +1,46 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local environment files
+.env
+.env.local
+
+# Build outputs (if any)
+dist/
+build/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories (if using npm in future)
+node_modules/
+
+# Screenshots for README (add real ones when available)
+screenshot.png
+screenshot-desktop.png
+screenshot-mobile.png
+
+DEPLOYMENT.md
+TECHNICAL_DOCS.md
