@@ -1,5 +1,7 @@
 # 🥾 Karpacz Hiking Trails
 
+AI-Developed Project.
+
 An interactive web application showcasing hiking trails in Karpacz, Poland - a popular mountain resort town in the Karkonosze Mountains.
 <img width="2879" height="1530" alt="image" src="https://github.com/user-attachments/assets/fabaf1af-3d95-4afe-9464-d1a266fe31a8" />
 <img width="2879" height="1160" alt="image" src="https://github.com/user-attachments/assets/4e2c95d1-de91-4388-a7c7-7fe540555d8c" />
