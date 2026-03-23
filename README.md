@@ -1,14 +1,13 @@
 # 🥾 Karpacz Hiking Trails
 
 An interactive web application showcasing hiking trails in Karpacz, Poland - a popular mountain resort town in the Karkonosze Mountains.
+<img width="2879" height="1530" alt="image" src="https://github.com/user-attachments/assets/fabaf1af-3d95-4afe-9464-d1a266fe31a8" />
+<img width="2879" height="1160" alt="image" src="https://github.com/user-attachments/assets/4e2c95d1-de91-4388-a7c7-7fe540555d8c" />
 
-🔗 **Live Demo**: [https://yourusername.github.io/karpacz-trails](https://yourusername.github.io/karpacz-trails)
-
-![Project Screenshot](screenshot.png)
 
 ## 📋 About the Project
 
-This project was created as a portfolio piece to demonstrate front-end development skills. It provides hikers with an easy way to explore and filter hiking trails in the Karpacz region based on difficulty, trail color marking, and distance.
+This project provides hikers with an easy way to explore and filter hiking trails in the Karpacz region based on difficulty, trail color marking, and distance.
 
 ### Features
 
@@ -112,36 +111,9 @@ php -S localhost:8000
 - ✅ **Version Control** - Git workflow with meaningful commits
 - ✅ **Open Source Data** - Working with OSM and public datasets
 
-## 📸 Screenshots
-
-### Desktop View
-![Desktop Screenshot](screenshot-desktop.png)
-
-### Mobile View
-![Mobile Screenshot](screenshot-mobile.png)
-
-## 🔮 Future Enhancements
-
-- [ ] Add GPX file download for each trail
-- [ ] Implement elevation profile charts
-- [ ] Add weather integration for trail conditions
-- [ ] Include photos of key viewpoints
-- [ ] Multi-language support (EN/PL/CZ)
-- [ ] User ratings and reviews
 
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 Trail data is sourced from OpenStreetMap contributors under ODbL license.
-
-## 👤 Author
-
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
-
----
-
-*Created as a portfolio project for demonstrating front-end development skills.*
